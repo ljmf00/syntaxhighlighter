@@ -122,6 +122,7 @@ class SyntaxHighlighter {
 		wp_register_script( 'syntaxhighlighter-brush-delphi',     plugins_url( $this->shfolder . '/scripts/shBrushDelphi.js',     __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_script( 'syntaxhighlighter-brush-diff',       plugins_url( $this->shfolder . '/scripts/shBrushDiff.js',       __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_script( 'syntaxhighlighter-brush-erlang',     plugins_url( $this->shfolder . '/scripts/shBrushErlang.js',     __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
+		wp_register_script( 'syntaxhighlighter-brush-d',          plugins_url( $this->shfolder . '/scripts/shBrushD.js',          __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_script( 'syntaxhighlighter-brush-groovy',     plugins_url( $this->shfolder . '/scripts/shBrushGroovy.js',     __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_script( 'syntaxhighlighter-brush-java',       plugins_url( $this->shfolder . '/scripts/shBrushJava.js',       __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
 		wp_register_script( 'syntaxhighlighter-brush-javafx',     plugins_url( $this->shfolder . '/scripts/shBrushJavaFX.js',     __FILE__ ), array('syntaxhighlighter-core'), $this->agshver );
@@ -173,7 +174,9 @@ class SyntaxHighlighter {
 			'c-sharp'       => 'csharp',
 			'csharp'        => 'csharp',
 			'css'           => 'css',
+			'd'            => 'd',
 			'delphi'        => 'delphi',
+			'dlang'        => 'd',
 			'pas'           => 'delphi',
 			'pascal'        => 'delphi',
 			'diff'          => 'diff',
